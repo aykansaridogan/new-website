@@ -7,6 +7,7 @@ import sesliled from "../../Assets/Projects/ledkontrol.png";
 import watermark from "../../Assets/Projects/imagewatermarking.png";
 import getr from "../../Assets/Projects/getir.png";
 import dilCalisma from "../../Assets/Projects/dilcalisma.png";
+import homeaut from "../../Assets/Projects/home.jpg";
 
 function Projects() {
   return (
@@ -55,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sesliled}
+              imgPath={homeaut}
               isBlog={false}
               title="Home Automation"
               description="I developed Home automation using Raspberry Pi Pico and writing Python language. By using the MQTT application in the project, I enabled the notification to be sent to the user's phone."
